@@ -2,13 +2,15 @@
 
 const yearOfBirth = 1989;
 
+console.log("I was born in", yearOfBirth);
 
-console.log(typeof yearOfBirth);
+const message = "What happend duck";
 
 
-let age;
+// const isComing = confirm("Please confirm hotel reservation");
 
-age = 14;
+// console.log(isComing);
 
-age = "ggg";
-console.log(typeof age);
+const hotelName = prompt("Please confirm hotel reservation");
+
+console.log(hotelName);
