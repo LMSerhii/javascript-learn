@@ -68,8 +68,19 @@ p {
 .header {
 }
 .some-text {
+  padding: 20px 0;
 }
 .container {
 }
 .footer {
+}
+
+.js-button {
+  display: block;
+  margin: 0 auto;
+  width: 156px;
+  height: 50px;
+  background-color: rgb(7, 59, 59);
+  border: none;
+  border-radius: 4px;
 }
