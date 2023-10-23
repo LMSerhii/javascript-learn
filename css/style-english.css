@@ -1,0 +1,115 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(58, 58, 58);
+}
+
+h1 {
+  padding: 30px;
+}
+
+p {
+  padding: 0px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.post {
+  padding: 21px 0;
+  margin-bottom: 50px;
+}
+
+.post-title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 0.94;
+}
+
+.subTitle {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.94;
+}
+
+.post-date {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #79828b;
+}
+
+.post-text {
+  padding-left: 12px;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.58;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.post-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 4px;
+  height: 100%;
+  border-radius: 12px;
+  background-color: #000;
+}
