@@ -65,6 +65,14 @@ p {
   padding: 0 15px;
 }
 
+.head-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.lesson-title {
+}
+
 .post {
   padding: 21px 0;
   margin-bottom: 50px;
