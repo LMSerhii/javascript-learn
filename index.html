@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
 
     <!-- Normolaize -->
     <link
@@ -17,7 +18,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="./css/style.css" />
     <title>JavaScriptAwesome</title>
@@ -28,7 +30,7 @@
       <section class="some-text">
         <div class="container">
           <h1>Header 1</h1>
-          <p>
+          <p class="first-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             possimus iure iusto praesentium error nesciunt delectus natus minus!
             Mollitia voluptatum accusantium rem ipsum debitis eveniet obcaecati
@@ -300,11 +302,38 @@
             asperiores maxime quasi consequatur doloremque fuga, quam saepe
             illo. Deserunt nam expedita numquam. Quaerat, harum accusantium.
           </p>
-        <button type="button" class="js-button">BUTTON</button>
+          <button type="button" class="js-button">BUTTON</button>
+
+          <!-- <form class="register-form" autocomplete="off">
+            <input type="text" name="username" placeholder="Username" />
+            <input type="password" name="password" placeholder="Password" />
+            <button type="submit">Register</button>
+          </form> -->
+
+          <!-- <form class="form" autocomplete="off">
+            <input type="text" name="login" placeholder="Login" />
+            <input type="password" name="password" placeholder="Password" />
+            <button class="btn" type="submit">Register</button>
+          </form> -->
+
+          <p>Selected option text: <span class="text-output">none</span></p>
+
+          <p></p>
+          <p>Selected option value: <span class="value-output">none</span></p>
+
+          <p>
+            <select class="pizza-select">
+              <option value="four_meats">Four Meats</option>
+              <option value="royal_cheese">Royal Cheese</option>
+              <option value="vegetarian">Vegetarian</option>
+              <option value="smoked_salmon">Smoked Salmon</option>
+            </select>
+          </p>
         </div>
       </section>
     </main>
     <footer class="footer"></footer>
     <script src="./js/main.js" type="module"></script>
+    <script type="module" src="./js/dom-main.js"></script>
   </body>
 </html>
