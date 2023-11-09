@@ -1,4 +1,3 @@
-
 // const atTheOldToad = {
 //   potions: [
 //     { name: "Speed potion", price: 460 },
@@ -709,7 +708,6 @@
 // console.log(Car.checkPrice(audi.price)); // "Success! Price is within acceptable limits"
 // console.log(Car.checkPrice(bmw.price)); // "Error! Price exceeds the maximum"
 
-
 // class User {
 //   constructor(email) {
 //     this.email = email;
@@ -773,7 +771,6 @@
 // console.log(mango.email); // "mango@mail.com"
 // console.log(mango.accessLevel); // "superuser"
 
-
 // class User {
 //   email;
 
@@ -796,7 +793,6 @@
 //     BASIC: "basic",
 //     SUPERUSER: "superuser",
 //   };
-
 
 //   constructor({ email, accessLevel }) {
 //     super(email);
@@ -830,7 +826,6 @@
 // console.log(mango.isBlacklisted("mango@mail.com")); // false
 // console.log(mango.isBlacklisted("poly@mail.com")); // true
 
-
 // Рандомне число в діапазоні;
 
 // const max = 1500;
@@ -839,8 +834,8 @@
 // console.log(Math.random() * (max - min) + min);
 
 // console.log(Math.round(Math.random() * (max - min) + min));
- 
-// console.log( 10 &&  5  && 5 && 'ggg'); 
+
+// console.log( 10 &&  5  && 5 && 'ggg');
 
 // console.log('' || '' || '' || 0);
 
@@ -2208,7 +2203,7 @@
 //     super(email);
 //     this.posts = posts;
 //     }
-    
+
 //     addPost(post) {
 //         this.posts.push(post);
 //     }
@@ -2226,5 +2221,43 @@
 // editor.addPost('post-1');
 // editor.addPost("post-1");
 
-
 // console.log(editor.posts);
+
+// const heroElement = document.querySelector('.hero');
+// console.log(heroElement);
+
+// const imgElement = document.querySelector('img');
+
+// console.dir(imgElement);
+
+// imgElement.addEventListener('mouseover', onImgElement);
+
+// const MIN_IMG_WIDTH = 300;
+// const MAX_IMG_WIDTH = 1200;
+
+// function onImgElement(event) {
+//   event.type === 'mouseover'
+//     ? (imgElement.width = 1200)
+//     : (imgElement.width = 300);
+// }
+
+// imgElement.addEventListener('mouseleave', onImgElement);
+
+const parent = document.querySelector('#parent');
+const child = document.querySelector('#child');
+const descendant = document.querySelector('#descendant');
+
+parent.addEventListener('click', event => {
+  // console.log('Parent click handler');
+  console.log(event.target.nodeName);
+});
+
+child.addEventListener('click', event => {
+  // console.log('Child click handler');
+  console.log(event.target.nodeName);
+});
+
+descendant.addEventListener('click', event => {
+  // console.log('Descendant click handler');
+  console.log(event.target.nodeName);
+});
