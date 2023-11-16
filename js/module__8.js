@@ -6,3 +6,17 @@
 const shortId = require('shortid');
 
 console.log(shortId.generate());
+
+const dog = {
+  name: 'Jack',
+  type: 'dog',
+  breed: 'haski',
+};
+
+console.log(JSON.stringify(dog));
+
+// localStorage.setItem('dogs', JSON.stringify(dog));
+
+// const dogs = localStorage.getItem('dogs');
+
+// console.log(dogs);
