@@ -3,9 +3,9 @@
 
 // console.log(schema.validate('qwqweqw'));
 
-const shortId = require('shortid');
+import shortid from 'shortid';
 
-console.log(shortId.generate());
+console.log(shortid.generate());
 
 const dog = {
   name: 'Jack',
